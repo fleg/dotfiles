@@ -1,0 +1,21 @@
+[ui]
+username = fleg
+merge = meld
+
+[extensions]
+pager =
+progress =
+color =
+purge =
+
+[pager]
+pager = LESS='FRX' less
+attend = annotate, cat, diff, export, glog, log, qdiff, status
+
+[color]
+status.modified = magenta
+status.added = green
+status.removed = red
+status.deleted = cyan
+status.unknown = none
+status.ignored = black
