@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # bash
 # append to existing .bashrc
 if ! grep -Fxq "source ~/dotfiles/bashrc" ~/.bashrc ; then
