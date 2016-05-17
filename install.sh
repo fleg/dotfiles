@@ -30,3 +30,6 @@ if [ ! -d ~/.nvm ]; then
 	cd ~/.nvm
 	git checkout `git describe --abbrev=0 --tags`
 fi
+
+# curl
+ln -sf ./dotfiles/curlrc ~/.curlrc
