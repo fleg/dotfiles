@@ -9,7 +9,6 @@
 	default = simple
 
 [alias]
-	lg = log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	co = checkout
 	ci = commit
 	st = status -sb
@@ -17,7 +16,6 @@
 	p  = push
 	aa = add -A
 	ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
-	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
 
 [mergetool]
 	keepBackup = false
